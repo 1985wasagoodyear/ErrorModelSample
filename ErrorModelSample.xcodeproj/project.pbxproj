@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F8039302444778C007CD8EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80392F2444778C007CD8EC /* AppDelegate.swift */; };
-		3F8039322444778C007CD8EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8039312444778C007CD8EC /* SceneDelegate.swift */; };
-		3F8039342444778C007CD8EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8039332444778C007CD8EC /* ViewController.swift */; };
+		3F8039302444778C007CD8EC /* ErrorModelAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80392F2444778C007CD8EC /* ErrorModelAppDelegate.swift */; };
+		3F8039342444778C007CD8EC /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8039332444778C007CD8EC /* ItemsViewController.swift */; };
 		3F8039372444778C007CD8EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8039352444778C007CD8EC /* Main.storyboard */; };
 		3F8039392444778F007CD8EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8039382444778F007CD8EC /* Assets.xcassets */; };
 		3F80393C2444778F007CD8EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F80393A2444778F007CD8EC /* LaunchScreen.storyboard */; };
+		3F8039442444783C007CD8EC /* ItemsViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8039432444783C007CD8EC /* ItemsViewController+TableView.swift */; };
+		3F80394624447843007CD8EC /* ItemsViewController+Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80394524447843007CD8EC /* ItemsViewController+Food.swift */; };
+		3F8039482444784B007CD8EC /* ItemsViewController+News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8039472444784B007CD8EC /* ItemsViewController+News.swift */; };
+		3F80394C24447978007CD8EC /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80394B24447978007CD8EC /* FoodViewModel.swift */; };
+		3F80394E24447980007CD8EC /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80394D24447980007CD8EC /* NewsViewModel.swift */; };
+		3F803952244479EA007CD8EC /* ViewModelStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F803951244479EA007CD8EC /* ViewModelStatus.swift */; };
+		3F80395524447B98007CD8EC /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80395424447B98007CD8EC /* News.swift */; };
+		3F80395724447BA1007CD8EC /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80395624447BA1007CD8EC /* Food.swift */; };
+		3F80395924447F6D007CD8EC /* ItemsViewController+Dialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80395824447F6D007CD8EC /* ItemsViewController+Dialog.swift */; };
+		3F80395B2444866C007CD8EC /* UIView+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80395A2444866C007CD8EC /* UIView+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F80392C2444778C007CD8EC /* ErrorModelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErrorModelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F80392F2444778C007CD8EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F8039312444778C007CD8EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F8039332444778C007CD8EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F80392F2444778C007CD8EC /* ErrorModelAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModelAppDelegate.swift; sourceTree = "<group>"; };
+		3F8039332444778C007CD8EC /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		3F8039362444778C007CD8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F8039382444778F007CD8EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F80393B2444778F007CD8EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F80393D2444778F007CD8EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8039432444783C007CD8EC /* ItemsViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemsViewController+TableView.swift"; sourceTree = "<group>"; };
+		3F80394524447843007CD8EC /* ItemsViewController+Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemsViewController+Food.swift"; sourceTree = "<group>"; };
+		3F8039472444784B007CD8EC /* ItemsViewController+News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemsViewController+News.swift"; sourceTree = "<group>"; };
+		3F80394B24447978007CD8EC /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
+		3F80394D24447980007CD8EC /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		3F803951244479EA007CD8EC /* ViewModelStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelStatus.swift; sourceTree = "<group>"; };
+		3F80395424447B98007CD8EC /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		3F80395624447BA1007CD8EC /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		3F80395824447F6D007CD8EC /* ItemsViewController+Dialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemsViewController+Dialog.swift"; sourceTree = "<group>"; };
+		3F80395A2444866C007CD8EC /* UIView+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utility.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		3F80392E2444778C007CD8EC /* ErrorModelSample */ = {
 			isa = PBXGroup;
 			children = (
-				3F80392F2444778C007CD8EC /* AppDelegate.swift */,
-				3F8039312444778C007CD8EC /* SceneDelegate.swift */,
-				3F8039332444778C007CD8EC /* ViewController.swift */,
+				3F80395324447B90007CD8EC /* Model */,
+				3F80394A24447965007CD8EC /* ViewModels */,
+				3F8039492444784D007CD8EC /* ViewControllers */,
+				3F80392F2444778C007CD8EC /* ErrorModelAppDelegate.swift */,
 				3F8039352444778C007CD8EC /* Main.storyboard */,
 				3F8039382444778F007CD8EC /* Assets.xcassets */,
 				3F80393A2444778F007CD8EC /* LaunchScreen.storyboard */,
 				3F80393D2444778F007CD8EC /* Info.plist */,
+				3F80395A2444866C007CD8EC /* UIView+Utility.swift */,
 			);
 			path = ErrorModelSample;
+			sourceTree = "<group>";
+		};
+		3F8039492444784D007CD8EC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F8039332444778C007CD8EC /* ItemsViewController.swift */,
+				3F8039432444783C007CD8EC /* ItemsViewController+TableView.swift */,
+				3F8039472444784B007CD8EC /* ItemsViewController+News.swift */,
+				3F80394524447843007CD8EC /* ItemsViewController+Food.swift */,
+				3F80395824447F6D007CD8EC /* ItemsViewController+Dialog.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F80394A24447965007CD8EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3F803951244479EA007CD8EC /* ViewModelStatus.swift */,
+				3F80394D24447980007CD8EC /* NewsViewModel.swift */,
+				3F80394B24447978007CD8EC /* FoodViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3F80395324447B90007CD8EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F80395424447B98007CD8EC /* News.swift */,
+				3F80395624447BA1007CD8EC /* Food.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8039342444778C007CD8EC /* ViewController.swift in Sources */,
-				3F8039302444778C007CD8EC /* AppDelegate.swift in Sources */,
-				3F8039322444778C007CD8EC /* SceneDelegate.swift in Sources */,
+				3F803952244479EA007CD8EC /* ViewModelStatus.swift in Sources */,
+				3F8039342444778C007CD8EC /* ItemsViewController.swift in Sources */,
+				3F80394624447843007CD8EC /* ItemsViewController+Food.swift in Sources */,
+				3F80395524447B98007CD8EC /* News.swift in Sources */,
+				3F80395924447F6D007CD8EC /* ItemsViewController+Dialog.swift in Sources */,
+				3F80394C24447978007CD8EC /* FoodViewModel.swift in Sources */,
+				3F8039482444784B007CD8EC /* ItemsViewController+News.swift in Sources */,
+				3F80394E24447980007CD8EC /* NewsViewModel.swift in Sources */,
+				3F80395724447BA1007CD8EC /* Food.swift in Sources */,
+				3F8039442444783C007CD8EC /* ItemsViewController+TableView.swift in Sources */,
+				3F8039302444778C007CD8EC /* ErrorModelAppDelegate.swift in Sources */,
+				3F80395B2444866C007CD8EC /* UIView+Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +346,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ErrorModelSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yu.ErrorModelSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -303,10 +365,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ErrorModelSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = yu.ErrorModelSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
